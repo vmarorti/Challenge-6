@@ -4,4 +4,4 @@ A weather dashboard that will run in the browser and feature dynamically updated
 
 Screenshot>> ![altText](Screenshot 2024-08-06 195009.png)
 
-Link to app>> 
+Link to app>> https://vmarorti.github.io/Challenge-6/
