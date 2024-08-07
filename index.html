@@ -5,33 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/jass.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>5-Day Weather Forecast</title>
 </head>
 
 <body>
-    <div class="flex-row align-center justify-center min-100-vh bg-primary">
-        <div class="col-12 col-md-9 flex-column align-center bg-light p-5">
-            <h1 class="text-primary">Weather Dashboard</h1>
-            <form id="search-form" class="form w-100">
-                <input id="search-input" class="form-input w-100" type="text" placeholder="Search a City!">
-                <button class="btn btn-info btn-block">Click Me!</button>
-            </form>
-        </div>
-        <div id="current-weather">
-            <h2 id="city-name"></h2>
-            <h3 id="date"></h3>
-            <img id="icon" src="">
-            <p id="temp"></p>
-            <p id="humidity"></p>
-            <p id="wind"></p>
+    <header class="col-12 col-md-3 bg-light p-3">
+        <h1 class="text-primary">Weather Dashboard</h1>
+    </header>
+    <form id="search-form" class="mb-2">
+        <input id="search-input" class="form-input w-100" type="text" placeholder="Search a City!">
+        <button class="btn btn-info btn-block">Click Me!</button>
+    </form>
+    <div id="current-weather" class="card-row">
+        
+        <h2 id="city-name"></h2>
+        <h3 id="date"></h3>
+        <img id="icon" src="">
+        <p id="temp"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
 
-        </div>
-        <div id="forecast"></div>
     </div>
+</div>
+</div>
+<div id="forecast" class="row">
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"
-    integrity="sha512-0fcCRl828lBlrSCa8QJY51mtNqTcHxabaXVLPgw/jPA5Nutujh6CbTdDgRzl9aSPYW/uuE7c4SffFUQFBAy6lg=="
-    crossorigin="anonymous"></script>
+        integrity="sha512-0fcCRl828lBlrSCa8QJY51mtNqTcHxabaXVLPgw/jPA5Nutujh6CbTdDgRzl9aSPYW/uuE7c4SffFUQFBAy6lg=="
+        crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

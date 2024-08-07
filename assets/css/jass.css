@@ -1,0 +1,63 @@
+body {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  background-color: aqua;
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 40%;
+  font-size: 25px;
+  resize: horizontal;
+  overflow: auto;
+}
+input.search-form.form-input {
+  width: 200px;
+  font-size: 20%;
+  
+}
+
+div.card {
+  float:right;
+  background-color: rgb(74, 107, 173);
+  border-style: solid;
+  width: 200px;
+  text-align: center;
+}
+div.current-weather > h2 {
+  padding: 30px;
+  width: 30px;
+  margin-left: 10%;
+
+}
+
+img {
+  align-items: center;
+
+}
+div.forecast.row {
+  text-align: center;
+  border-color: black;
+  row-gap: inherit;
+}
+.card-row {
+  background-color: aquamarine;
+  resize: horizontal;
+  overflow: auto;
+  border-style: dotted;
+  padding: 30px;
+  width: 100px;
+  max-width: 100px;
+}
+div.forecast {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
